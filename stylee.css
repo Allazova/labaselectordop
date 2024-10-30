@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-title {
+    font-size: 2.5em;
+    color: black; /* для заголовка */
+    margin-bottom: 20px;
+}
+
+.intro-subtitle {
+    font-size: 1.5em;
+    color: goldenrod; /*  для подзаголовка */
+    margin-bottom: 15px;
+}
+
+.intro-description {
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: brown; /* Красный цвет для кнопки */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d33f29;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+.profile-photo1 {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+.food-gallery {
+    margin-top: 20px;
+}
+
+.food-photo {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.personal-photos {
+    margin-top: 20px;
+}
+
+.personal-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
